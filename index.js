@@ -2,5 +2,7 @@ require('dotenv').config();
 
 const test = process.env.TESTE;
 
-console.log("ola", test);
+const p = document.querySelector('.p');
+
+p.innerHTML = test;
 
